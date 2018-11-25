@@ -16,7 +16,11 @@
 第五章：[决策树（Decision Tree）](https://github.com/zhengjingwei/statistical-learning-method/tree/master/DecisionTree)
 
 第六章：[逻辑斯蒂回归（Logistic Regression）](https://github.com/zhengjingwei/statistical-learning-method/tree/master/LogisticRegression)
-​    		[最大熵模型](https://github.com/zhengjingwei/statistical-learning-method/tree/master/LogisticRegression)
+
+​		[最大熵模型（Maximum Entropy Model）](https://github.com/zhengjingwei/statistical-learning-method/tree/master/MaxEntropy)
+
+第七章：[支持向量机（SVM）](https://github.com/zhengjingwei/statistical-learning-method/tree/master/SVM)
+
 ​     
 
 **实验数据**：MNIST数据集,这里用kaggle中处理好的数据 
@@ -34,4 +38,4 @@ kaggle中处理好的数据：https://www.kaggle.com/c/digit-recognizer/data
 - 数据集第一列为label，第二列到最后一列为特征
 
 
-对于二分类问题，将MINST数据集train.csv的label列进行了一些微调，label等于0的继续等于0，label大于0改为1。这样就将十分类的数据改为二分类的数据。获取地址train_binary.csv
+对于二分类问题，将MINST数据集train.csv的label列进行了一些微调，label等于0的继续等于0，label大于0改为1。这样就将十分类的数据改为二分类的数据 data/train_binary.csv
